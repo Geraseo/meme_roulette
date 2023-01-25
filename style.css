@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+h2, h3 {
+    color: whitesmoke!important;
+    font-family: 'Maximum Impact', sans-serif;
+    text-align: center !important;
+    margin-bottom: 0!important;
+}
+#inputsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid whitesmoke;
+    border-radius: 6px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+}
+#inputsDiv > div{
+margin-top: 1em;
+    width: 100%;
+}
+#inputsDiv > div> input {
+
+    width: 100%;
+}
+#genBtn {
+    margin: 1% 0;
+    width: 100%;
+    
+}
+#restartBtn {
+    margin: 1% 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+#name {
+    top: 0%;
+    width: 100%;
+    margin: 1% 0;
+    font: 3em sans-serif;
+}
+#container {
+    background-color: rgb(47, 47, 47);
+}
+#picDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid whitesmoke;
+    border-radius: 6px;
+    width: 50%;
+    height: 75%;
+    object-fit: cover;
+    
+
+}
+#tutorial {
+
+    color: whitesmoke;
+    text-align: center ;
+}
+@media screen and (max-width: 800px) {
+    #picDiv {
+        width: 90%;
+        height: 50%;
+    }
+    .topEntry, .botEntry {
+        font-size: 2em;
+    }
+}
+    
+
+#picDiv > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#replayBtn {
+    margin: 1% 0;
+}
+.topEntry{
+    position: absolute;
+    top: 0%;
+    color: white;
+    font-size: 4em;
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    text-stroke: 4px rgb(0, 0, 0);
+    text-transform: uppercase !important;
+    width: 100%;
+    text-align: center;
+  }
+  
+.botEntry{
+    position: absolute;
+    color: white;
+    bottom: 0%;
+    font-size: 4em;
+    -webkit-text-stroke: 4px rgb(0, 0, 0);
+    text-stroke: 4px rgb(0, 0, 0);
+    text-transform: uppercase !important;
+    width: 100%;
+    text-align: center;
+
+  }
+.borderisred {
+    border: 3px solid red;
+}
+.borderisgreen {
+    border: 3px solid green;
+}
+.borderisyellow {
+    border: 3px solid yellow;
+}
+.borderispink {
+    border: 3px solid lightcoral;
+}
+.borderisorange {
+    border: 3px solid orange;
+}
+.borderisblue {
+    border: 3px solid blue;
+} 
+.centeris {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
