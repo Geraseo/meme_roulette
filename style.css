@@ -75,8 +75,8 @@ body {
     }
     .topEntry, .botEntry {
         font-size: 2em !important;
-        -webkit-text-stroke: 2px rgb(0, 0, 0);
-        text-stroke: 2px rgb(0, 0, 0);
+        -webkit-text-stroke: 2px rgb(0, 0, 0) !important;
+        text-stroke: 2px rgb(0, 0, 0) !important;
     }
 }
     
