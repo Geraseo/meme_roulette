@@ -74,7 +74,7 @@ body {
         height: 50%;
     }
     .topEntry, .botEntry {
-        font-size: 2em;
+        font-size: 3em !important;
     }
 }
     
